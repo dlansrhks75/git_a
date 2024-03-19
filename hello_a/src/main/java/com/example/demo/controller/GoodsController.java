@@ -8,6 +8,7 @@ public class GoodsController {
 
 	@GetMapping("/listGoods")
 	public String list() {
+		System.out.println("2");
 		return "상품목록";
 	}
 }
